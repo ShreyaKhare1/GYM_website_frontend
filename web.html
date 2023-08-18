@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   body{
+    margin:0px;
+    padding:0px;
+    background: url("Featured1.jpg");
+    /*color:aliceblue;*/
+    
+   } 
+   .left{
+   /* border:2px solid red;*/
+    display:  inline-block;
+    position: absolute;
+    color: aliceblue;
+    font-size: large;
+    
+   }
+   .middle{
+    /*border: 2px solid greenyellow;*/
+    display: block ;
+    width: 50%;
+    margin: 12px auto;
+   }
+   .right{
+   /* border:2px solid orange;*/
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 34px;
+    color: aliceblue;
+   }
+   .navbar li{
+    display: inline-block;
+    font-size: 25px;
+    
+   }
+   .navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 23 px;
+   }
+   .navbar a:hover{
+    color: yellow;
+    text-decoration: underline;
+    padding: 30px 23 px;
+   }
+   .btn{
+    border-radius: 10px;
+    margin:0px 10px;
+    color:black;
+    padding:3px 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(199,288,100);
+
+}
+.left img{
+    width: 100px;
+}
+.container{
+   /* border:green 2px solid;*/
+    width: 1000px;
+    margin:2px 2px;
+    padding: 12px 22px;
+    border-radius: 12px;
+    color: aliceblue;
+}
+.formgroup input{
+    
+    color:white;
+    padding: 10px 10px;
+    display: block;
+    width: 1000px;
+        padding: 6px;
+        text-align: center;
+        border:black 2px solid;
+        margin: 10px 10px;
+
+}
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            Fit Gym
+            <img src="logo.jpg" ></img>
+            
+        </div>
+        <div class="middle">
+            I am middle
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Center</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">
+                Call Us Now
+            </button>
+            <button class="btn">
+                Email Us
+            </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join The best Gym</h1>
+        <form action="no action.php">
+            <div class="formgroup">
+                <input type="text" name="" placeholder="Enter name">
+                </div>
+                <div class="formgroup">
+                <input type="text" adress="" placeholder="Enter Address">
+            </div>
+            <div class="formgroup">
+                <input type="text" email="" placeholder="Enter email">
+            </div>
+            <div class="formgroup">
+                <input type="number" mobilno="" placeholder="Enter Mobile number">
+            </div>
+            <button class="btn">Submit nOW</button>
+        </form>
+    </div>
+    
+</body>
+</html>
